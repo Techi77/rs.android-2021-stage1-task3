@@ -11,7 +11,7 @@ class Combinator {
         if (Akn >= 0 && n > 0) {
             for(i in 0..n){
                 Akn = (factorial(n)/(factorial(i)* factorial(n-i))).toInt()
-                if (Akn == Akn){
+                if (Akn == array[0]){
                     return (i)
                 }
             }
